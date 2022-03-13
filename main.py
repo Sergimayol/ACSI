@@ -3,10 +3,10 @@ from openpyxl.utils import get_column_letter
 import re
 
 tmp = str(input("Path excel: "))
-wb = load_workbook(tmp)
+wb = load_workbook("C:/Users/Sergi/Desktop/CPU.xlsx")
 ws = wb.active
 tmp = input("Path fichero de texto: ")
-file = open(tmp)
+file = open("C:/Users/Sergi/Desktop/prueba.txt")
 
 if __name__ == '__main__':
     text = file.read(1)
@@ -26,7 +26,7 @@ if __name__ == '__main__':
                 info = ""
 
             if text == ",":
-                # Quitar a info los valores no númericos
+                #Quitar a info los valores no númericos
                 aux = [float(s) for s in re.findall(r'-?\d+\.?\d*', info)]
                 ws[get_column_letter(col) + str(row)].value = aux[0]
                 text = file.read(1)
@@ -50,4 +50,6 @@ if __name__ == '__main__':
 
     # End of while, close buffer and save info excel
     file.close()
-    wb.save("p.xlsx")
+    wb.save("CPU.xlsx")
+    print("Proceso finalizado con éxito :D")
+    input("<<<<<<Pulse cualquier tecla para finalizar>>>>>>")
