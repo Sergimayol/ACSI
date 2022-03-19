@@ -27,7 +27,7 @@ if __name__ == "__main__":
             if not text:
                 break
             if if_integer(text):
-                ws[get_column_letter(col) + str(row)].value = text
+                ws[get_column_letter(col) + str(row)].value = int(text)
                 row = row + 1
             text = file.readline()
     except Exception as e:
