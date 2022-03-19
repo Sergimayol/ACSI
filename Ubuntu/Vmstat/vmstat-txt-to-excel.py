@@ -3,9 +3,9 @@ from openpyxl.utils import get_column_letter
 
 
 tmp = input("Path fichero de texto: ")
-file = open("C:/Users/Sergi/Documents/GitHub/ACSI/CP_p2/cache.txt")
+file = open(tmp)
 tmp = str(input("Path excel: "))
-wb = load_workbook("C:/Users/Sergi/Documents/GitHub/ACSI/CP_p2/Vmstat.xlsx")
+wb = load_workbook(tmp)
 ws = wb.active
 
 
@@ -33,10 +33,10 @@ if __name__ == "__main__":
     except Exception as e:
         print(e)
         file.close()
-        wb.save("C:/Users/Sergi/Desktop/Vmstat.xlsx")
+        wb.save(tmp)
 
     # End of while, close buffer and save info excel
     file.close()
-    wb.save("C:/Users/Sergi/Documents/GitHub/ACSI/CP_p2/Vmstat.xlsx")
+    wb.save(tmp)
     print("Proceso finalizado con éxito :D")
     input("<<<<<<Pulse cualquier tecla para finalizar>>>>>>")
