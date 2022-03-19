@@ -3,38 +3,31 @@ from openpyxl.utils import get_column_letter
 
 
 tmp = input("Path fichero de texto: ")
-file = open(tmp)
+file = open("C:/Users/Sergi/Desktop/VmstatMem.txt")
 tmp = str(input("Path excel: "))
-wb = load_workbook(tmp)
+wb = load_workbook("C:/Users/Sergi/Desktop/Vmstat.xlsx")
 ws = wb.active
 
 if __name__ == "__main__":
-    # 2 primeras lineas son nombres cols
-    text = file.readline(2)
     info = ""
     row = 2
-    col = 1
-    while True:
-        if not text:
-            break
-        if text == " ":
-            ws[get_column_letter(col) + str(row)].value = info + ":"
-            text = file.read(1)
-            col = col + 1
-            info = ""
-
-        if text == "\n":
-            ws[get_column_letter(col) + str(row)].value = info
-            # siguiente linea y reset columna e info
-            row = row + 1
-            col = 1
-            info = ""
-
-        info += text
-        text = file.read(1)
+    col = int(input("Columna inicio: "))
+    try:
+        text = file.readline()
+        while True:
+            if not text:
+                break
+            if text.isdigit():
+                ws[get_column_letter(col) + str(row)].value = int(text)
+                col = col + 1
+            text = file.readline()
+    except Exception as e:
+        print(e)
+        file.close()
+        wb.save("C:/Users/Sergi/Desktop/Vmstat.xlsx")
 
     # End of while, close buffer and save info excel
     file.close()
-    wb.save(tmp)
+    wb.save("C:/Users/Sergi/Desktop/Vmstat.xlsx")
     print("Proceso finalizado con éxito :D")
     input("<<<<<<Pulse cualquier tecla para finalizar>>>>>>")
