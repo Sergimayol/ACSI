@@ -3,23 +3,32 @@ from openpyxl.utils import get_column_letter
 
 
 tmp = input("Path fichero de texto: ")
-file = open("C:/Users/Sergi/Desktop/VmstatMem.txt")
+file = open("C:/Users/Sergi/Documents/GitHub/ACSI/CP_p2/cache.txt")
 tmp = str(input("Path excel: "))
-wb = load_workbook("C:/Users/Sergi/Desktop/Vmstat.xlsx")
+wb = load_workbook("C:/Users/Sergi/Documents/GitHub/ACSI/CP_p2/Vmstat.xlsx")
 ws = wb.active
+
+
+def if_integer(textoA):
+    try:
+        int(textoA)
+        return True
+    except ValueError:
+        return False
+
 
 if __name__ == "__main__":
     info = ""
-    row = 2
+    row = int(input("Fila inicio: "))
     col = int(input("Columna inicio: "))
     try:
         text = file.readline()
         while True:
             if not text:
                 break
-            if text.isdigit():
-                ws[get_column_letter(col) + str(row)].value = int(text)
-                col = col + 1
+            if if_integer(text):
+                ws[get_column_letter(col) + str(row)].value = text
+                row = row + 1
             text = file.readline()
     except Exception as e:
         print(e)
@@ -28,6 +37,6 @@ if __name__ == "__main__":
 
     # End of while, close buffer and save info excel
     file.close()
-    wb.save("C:/Users/Sergi/Desktop/Vmstat.xlsx")
+    wb.save("C:/Users/Sergi/Documents/GitHub/ACSI/CP_p2/Vmstat.xlsx")
     print("Proceso finalizado con éxito :D")
     input("<<<<<<Pulse cualquier tecla para finalizar>>>>>>")
