@@ -23,7 +23,6 @@ if __name__ == '__main__':
     row = 2
     col = 1
     while True:
-        print(toFloat("0.7"))
         try:
             # CPu text
             text = file.read(8)
