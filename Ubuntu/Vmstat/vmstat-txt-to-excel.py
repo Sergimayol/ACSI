@@ -17,6 +17,16 @@ def if_integer(textoA):
         return False
 
 
+def toFloat(texto):
+    numero = ""
+    for i in range(len(texto)):
+        if texto[i] == ",":
+            numero += "."
+        else:
+            numero += texto[i]
+    return float(numero)
+
+
 if __name__ == "__main__":
     info = ""
     row = int(input("Fila inicio: "))
