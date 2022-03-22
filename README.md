@@ -5,7 +5,6 @@ wsl --set-version Ubuntu 2
 CP_p2:
 - Programas para pasar los datos obtenidos del monitor top y vmstat a excel
 
-<br/>
 cd /mnt/c/Users/Sergi/Desktop/Ubuntu-ACSI<br/>
 top -b -d10 -n360 | grep -i "Cpu(s):" >%CPU.txt<br/>
 vmstat 15 240 >VmstatMem.txt<br/>
