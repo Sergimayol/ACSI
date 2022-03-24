@@ -12,5 +12,5 @@ cat /proc/cpuinfo ==> visualizar info especifica de cada una de las cpus<br/>
 lscpu ==> visualizar info de las cpus<br/>
 lshw ==> visualizar info del sistema, apartado memory>size ==> Capcidad memoria<br/>
 awk '{print $numcol}' nombreFichero.txt > NombreGuardarFichero.txt<br/>
-sysbench --test=cpu --cpu-max-prime=10000 --num-threads=4 run
+sysbench --test=cpu --cpu-max-prime=10000 --num-threads=4 run<br/>
 time stress-ng --cpu 8 --cpu-ops=1000
