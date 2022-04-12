@@ -1,6 +1,4 @@
 #!/bin/bash
-#cd /mnt/c/Users/Sergi/Desktop
-#cd /media/sf_Compartido/Pract3
 echo "Setup Servidores A y B"
 echo "Servidor A:"
 for i in $(seq 1 10); do
@@ -46,3 +44,5 @@ echo "---------------------------------"
 echo "BENCHMARK: Sysbench carga = 150000"
 time sysbench cpu --cpu-max-prime=150000 --threads=2 run >sysbench150k.txt
 echo "---------------------------------"
+#cd /mnt/c/Users/Sergi/Desktop
+#cd /media/sf_Compartido/Pract3
