@@ -1,3 +1,46 @@
+Setup Servidores A y B
+Servidor A:
+
+real    0m10.068s
+user    1m20.199s
+sys     0m0.010s
+
+real    0m10.108s
+user    1m20.594s
+sys     0m0.000s
+
+real    0m10.070s
+user    1m20.259s
+sys     0m0.030s
+
+real    0m10.107s
+user    1m20.422s
+sys     0m0.000s
+
+real    0m10.116s
+user    1m20.367s
+sys     0m0.010s
+
+real    0m10.085s
+user    1m20.192s
+sys     0m0.000s
+
+real    0m10.101s
+user    1m20.206s
+sys     0m0.030s
+
+real    0m10.109s
+user    1m20.378s
+sys     0m0.010s
+
+real    0m10.117s
+user    1m20.296s
+sys     0m0.020s
+
+real    0m10.120s
+user    1m20.365s
+sys     0m0.000s
+---------------------------------
 Servidor B:
 stress-ng: info:  [808] defaulting to a 86400 second (1 day, 0.00 secs) run per stressor
 stress-ng: info:  [808] dispatching hogs: 8 cpu
