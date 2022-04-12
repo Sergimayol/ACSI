@@ -9,8 +9,16 @@ time sysbench cpu --cpu-max-prime=250000 --threads=2 run >> ServidorA.txt
 time sysbench cpu --cpu-max-prime=250000 --threads=2 run >> ServidorA.txt
 time sysbench cpu --cpu-max-prime=250000 --threads=2 run >> ServidorA.txt
 time sysbench cpu --cpu-max-prime=250000 --threads=2 run >> ServidorA.txt
+time sysbench cpu --cpu-max-prime=250000 --threads=2 run >> ServidorA.txt
+time sysbench cpu --cpu-max-prime=250000 --threads=2 run >> ServidorA.txt
+time sysbench cpu --cpu-max-prime=250000 --threads=2 run >> ServidorA.txt
+time sysbench cpu --cpu-max-prime=250000 --threads=2 run >> ServidorA.txt
 echo "---------------------------------"
 echo "Servidor B:"
+time sysbench cpu --cpu-max-prime=300000 --threads=4 run >> ServidorB.txt
+time sysbench cpu --cpu-max-prime=300000 --threads=4 run >> ServidorB.txt
+time sysbench cpu --cpu-max-prime=300000 --threads=4 run >> ServidorB.txt
+time sysbench cpu --cpu-max-prime=300000 --threads=4 run >> ServidorB.txt
 time sysbench cpu --cpu-max-prime=300000 --threads=4 run >> ServidorB.txt
 time sysbench cpu --cpu-max-prime=300000 --threads=4 run >> ServidorB.txt
 time sysbench cpu --cpu-max-prime=300000 --threads=4 run >> ServidorB.txt
