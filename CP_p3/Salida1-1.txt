@@ -1,0 +1,116 @@
+Setup Servidores A y B
+Servidor A:
+
+real    0m10.070s
+user    1m0.125s
+sys     0m0.000s
+
+real    0m10.065s
+user    1m0.078s
+sys     0m0.016s
+
+real    0m10.053s
+user    1m0.063s
+sys     0m0.016s
+
+real    0m10.065s
+user    1m0.234s
+sys     0m0.016s
+
+real    0m10.058s
+user    0m59.891s
+sys     0m0.016s
+
+real    0m10.080s
+user    1m0.016s
+sys     0m0.031s
+
+real    0m10.073s
+user    0m57.828s
+sys     0m0.094s
+
+real    0m10.063s
+user    1m0.094s
+sys     0m0.016s
+
+real    0m10.081s
+user    0m59.766s
+sys     0m0.047s
+
+real    0m10.067s
+user    0m59.969s
+sys     0m0.031s
+---------------------------------
+Servidor B:
+stress-ng: info:  [1132] defaulting to a 86400 second (1 day, 0.00 secs) run per stressor
+stress-ng: info:  [1132] dispatching hogs: 12 cpu
+stress-ng: info:  [1132] successful run completed in 127.75s (2 mins, 7.75 secs)
+
+real    2m7.761s
+user    24m36.172s
+sys     0m1.125s
+stress-ng: info:  [1145] defaulting to a 86400 second (1 day, 0.00 secs) run per stressor
+stress-ng: info:  [1145] dispatching hogs: 12 cpu
+stress-ng: info:  [1145] successful run completed in 124.92s (2 mins, 4.92 secs)
+
+real    2m4.928s
+user    24m32.297s
+sys     0m0.172s
+stress-ng: info:  [1158] defaulting to a 86400 second (1 day, 0.00 secs) run per stressor
+stress-ng: info:  [1158] dispatching hogs: 12 cpu
+stress-ng: info:  [1158] successful run completed in 124.81s (2 mins, 4.81 secs)
+
+real    2m4.823s
+user    24m38.703s
+sys     0m0.188s
+stress-ng: info:  [1171] defaulting to a 86400 second (1 day, 0.00 secs) run per stressor
+stress-ng: info:  [1171] dispatching hogs: 12 cpu
+stress-ng: info:  [1171] successful run completed in 125.75s (2 mins, 5.75 secs)
+
+real    2m5.757s
+user    24m53.125s
+sys     0m0.234s
+stress-ng: info:  [1184] defaulting to a 86400 second (1 day, 0.00 secs) run per stressor
+stress-ng: info:  [1184] dispatching hogs: 12 cpu
+stress-ng: info:  [1184] successful run completed in 124.93s (2 mins, 4.93 secs)
+
+real    2m28.347s
+user    24m38.141s
+sys     0m0.125s
+stress-ng: info:  [1197] defaulting to a 86400 second (1 day, 0.00 secs) run per stressor
+stress-ng: info:  [1197] dispatching hogs: 12 cpu
+
+stress-ng: info:  [1197] successful run completed in 124.40s (2 mins, 4.40 secs)
+
+real    3m20.630s
+user    24m30.422s
+sys     0m0.078s
+stress-ng: info:  [1210] defaulting to a 86400 second (1 day, 0.00 secs) run per stressor
+stress-ng: info:  [1210] dispatching hogs: 12 cpu
+stress-ng: info:  [1210] successful run completed in 124.19s (2 mins, 4.19 secs)
+
+real    2m10.649s
+user    24m20.328s
+sys     0m0.141s
+stress-ng: info:  [1223] defaulting to a 86400 second (1 day, 0.00 secs) run per stressor
+stress-ng: info:  [1223] dispatching hogs: 12 cpu
+
+stress-ng: info:  [1223] successful run completed in 125.20s (2 mins, 5.20 secs)
+
+real    2m5.214s
+user    24m42.828s
+sys     0m0.141s
+stress-ng: info:  [1236] defaulting to a 86400 second (1 day, 0.00 secs) run per stressor
+stress-ng: info:  [1236] dispatching hogs: 12 cpu
+stress-ng: info:  [1236] successful run completed in 125.73s (2 mins, 5.73 secs)
+
+real    2m5.736s
+user    24m39.406s
+sys     0m0.156s
+stress-ng: info:  [1249] defaulting to a 86400 second (1 day, 0.00 secs) run per stressor
+stress-ng: info:  [1249] dispatching hogs: 12 cpu
+stress-ng: info:  [1249] successful run completed in 125.23s (2 mins, 5.23 secs)
+
+real    2m5.239s
+user    24m36.578s
+sys     0m0.203s
