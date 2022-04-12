@@ -398,7 +398,7 @@ FodyWeavers.xsd
 *.sln.iml
 
 # Html code
-*.html
+#*.html
 
 #TeX code
 ## Core latex/pdflatex auxiliary files:
