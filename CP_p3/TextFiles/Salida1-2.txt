@@ -1,26 +1,174 @@
+
 ---------------------------------
 Apartado 1.2
 BENCHMARK: Sysbench carga = 25000
 
-real    0m10.025s
+real    0m10.024s
 user    0m59.984s
+sys     0m0.000s
+
+real    0m10.024s
+user    0m59.828s
 sys     0m0.031s
+
+real    0m10.024s
+user    1m0.016s
+sys     0m0.000s
+
+real    0m10.024s
+user    0m59.984s
+sys     0m0.047s
+
+real    0m10.024s
+user    0m59.984s
+sys     0m0.016s
+
+real    0m10.024s
+user    0m59.922s
+sys     0m0.031s
+
+real    0m10.024s
+user    0m59.953s
+sys     0m0.047s
+
+real    0m10.024s
+user    0m59.969s
+sys     0m0.031s
+
+real    0m10.024s
+user    0m59.906s
+sys     0m0.063s
+
+real    0m10.024s
+user    0m59.938s
+sys     0m0.078s
+
 ---------------------------------
 BENCHMARK: Sysbench carga = 50000
 
 real    0m10.027s
+user    1m0.000s
+sys     0m0.016s
+
+real    0m10.028s
+user    1m0.000s
+sys     0m0.016s
+
+real    0m10.027s
+user    1m0.031s
+sys     0m0.016s
+
+real    0m10.028s
+user    0m59.922s
+sys     0m0.031s
+
+real    0m10.025s
+user    1m0.016s
+sys     0m0.016s
+
+real    0m10.026s
+user    1m0.000s
+sys     0m0.031s
+
+real    0m10.029s
+user    0m59.891s
+sys     0m0.031s
+
+real    0m10.026s
+user    1m0.000s
+sys     0m0.016s
+
+real    0m10.029s
+user    0m59.938s
+sys     0m0.063s
+
+real    0m10.027s
 user    0m59.781s
-sys     0m0.047s
+sys     0m0.078s
+
 ---------------------------------
 BENCHMARK: Sysbench carga = 100000
 
-real    0m10.032s
+real    0m10.036s
+user    0m59.734s
+sys     0m0.047s
+
+real    0m10.037s
+user    1m0.047s
+sys     0m0.016s
+
+real    0m10.035s
 user    0m59.984s
 sys     0m0.016s
+
+real    0m10.041s
+user    1m0.078s
+sys     0m0.016s
+
+real    0m10.032s
+user    1m0.016s
+sys     0m0.016s
+
+real    0m10.039s
+user    1m0.047s
+sys     0m0.047s
+
+real    0m10.042s
+user    1m0.031s
+sys     0m0.031s
+
+real    0m10.040s
+user    1m0.000s
+sys     0m0.000s
+
+real    0m10.034s
+user    0m59.781s
+sys     0m0.000s
+
+real    0m10.033s
+user    1m0.000s
+sys     0m0.000s
+
 ---------------------------------
 BENCHMARK: Sysbench carga = 150000
 
+real    0m10.036s
+user    1m0.000s
+sys     0m0.016s
+
+real    0m10.041s
+user    1m0.078s
+sys     0m0.016s
+
 real    0m10.045s
-user    1m0.063s
+user    0m59.984s
 sys     0m0.000s
+
+real    0m10.051s
+user    1m0.063s
+sys     0m0.016s
+
+real    0m10.037s
+user    1m0.063s
+sys     0m0.016s
+
+real    0m10.049s
+user    0m59.969s
+sys     0m0.031s
+
+real    0m10.047s
+user    1m0.016s
+sys     0m0.016s
+
+real    0m10.046s
+user    1m0.109s
+sys     0m0.016s
+
+real    0m10.034s
+user    1m0.063s
+sys     0m0.016s
+
+real    0m10.045s
+user    1m0.047s
+sys     0m0.016s
 ---------------------------------
