@@ -11,6 +11,8 @@
 body {
     margin: auto;
     width: 75%;
+    background-color: #222222;
+    color: #fff;
 }
 
 .container {
@@ -35,10 +37,15 @@ body {
 }
 
 .content {
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 1.25em;
+}
+
+.lista-practicas {
     display: flex;
     flex-direction: column;
+    margin-bottom: 60px;
 }
 
 .content p {
@@ -50,7 +57,7 @@ a {
 }
 
 footer {
-    background: rgb(183, 181, 183);
+    background: #333333;
     padding-bottom: 0.1px;
 }
 
