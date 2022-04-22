@@ -1,8 +1,7 @@
 # ACSI
 - Versión: wsl --set-version Ubuntu 2
 - Prácticas: 
-  - CP_px
-    - x: 1-7 
+  - CP_px (x: 1-7)
 - Comandos empleados: 
 ```sh
 cd /mnt/c/Users/Sergi/Desktop/Ubuntu-ACSI 
