@@ -12,11 +12,5 @@
   },
   "[shellscript]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
-  },
-  "[c]": {
-    "editor.defaultFormatter": "ms-vscode.cpptools"
-  },
-  "[h]": {
-    "editor.defaultFormatter": "ms-vscode.cpptools"
   }
 }
