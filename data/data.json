@@ -1,28 +1,36 @@
 {
   "practicas": [
     {
-      "prac1": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "prac2": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ]
+      "id": "prac1",
+      "title": "",
+      "description": "",
+      "src": ""
+    },
+    {
+      "id": "prac2",
+      "title": "",
+      "description": "",
+      "src": ""
+    },
+    {
+      "id": "prac3",
+      "title": "",
+      "description": "",
+      "src": ""
     }
   ],
   "cuestiones": [
     {
-      "cuest1": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ]
+      "id": "cuest1",
+      "title": "",
+      "description": "",
+      "src": ""
+    },
+    {
+      "id": "cuest2",
+      "title": "",
+      "description": "",
+      "src": ""
     }
   ]
 }
