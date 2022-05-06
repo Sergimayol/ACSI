@@ -1,0 +1,20 @@
+time sysbench cpu --cpu-max-prime=150000 --time=0 --threads=6 --max-requests=150000 run
+
+Prime numbers limit: 150000
+
+CPU speed:
+    events per second:   227.64
+
+General statistics:
+    total time:                          658.9443s
+    total number of events:              150000
+
+
+real    10m58.980s
+user    65m44.250s
+sys     0m0.656s
+
+25000 = 10s
+50000 = 48s
+100000 = 252s
+150000 = 659s

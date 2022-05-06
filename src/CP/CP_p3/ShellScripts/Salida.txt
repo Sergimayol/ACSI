@@ -1,0 +1,95 @@
+./scriptSysbench.sh
+
+---------------------------------
+Apartado 1.2
+BENCHMARK: Sysbench carga = 25000
+
+real    0m8.860s
+user    0m52.938s
+sys     0m0.047s
+
+real    0m8.822s
+user    0m52.734s
+sys     0m0.031s
+
+real    0m8.898s
+user    0m53.094s
+sys     0m0.031s
+
+real    0m8.917s
+user    0m53.094s
+sys     0m0.031s
+
+real    0m9.002s
+user    0m53.828s
+sys     0m0.016s
+
+---------------------------------
+BENCHMARK: Sysbench carga = 50000
+
+real    0m47.664s
+user    4m45.563s
+sys     0m0.016s
+
+real    0m48.637s
+user    4m51.063s
+sys     0m0.109s
+
+real    0m48.752s
+user    4m51.375s
+sys     0m0.109s
+
+real    0m49.165s
+user    4m53.641s
+sys     0m0.109s
+
+real    0m47.920s
+user    4m46.859s
+sys     0m0.141s
+
+---------------------------------
+BENCHMARK: Sysbench carga = 100000
+
+real    4m10.395s
+user    25m0.125s
+sys     0m0.266s
+
+real    4m15.428s
+user    25m27.016s
+sys     0m0.328s
+
+real    4m11.584s
+user    25m4.906s
+sys     0m0.281s
+
+real    4m9.104s
+user    24m50.500s
+sys     0m0.188s
+
+real    4m6.138s
+user    24m35.266s
+sys     0m0.141s
+
+---------------------------------
+BENCHMARK: Sysbench carga = 150000
+
+real    10m40.548s
+user    63m59.281s
+sys     0m0.250s
+
+real    10m41.128s
+user    64m4.141s
+sys     0m0.250s
+
+real    10m47.062s
+user    64m37.734s
+sys     0m0.250s
+
+real    10m58.900s
+user    65m44.063s
+sys     0m0.328s
+
+real    10m48.106s
+user    64m41.625s
+sys     0m0.344s
+---------------------------------
