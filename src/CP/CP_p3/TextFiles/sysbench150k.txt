@@ -1,3 +1,4 @@
+WARNING: --max-requests is deprecated, use --events instead
 sysbench 1.0.18 (using system LuaJIT 2.1.0-beta3)
 
 Running the test with following options:
@@ -12,23 +13,24 @@ Initializing worker threads...
 Threads started!
 
 CPU speed:
-    events per second:   231.36
+    events per second:   234.18
 
 General statistics:
-    total time:                          10.0138s
-    total number of events:              2317
+    total time:                          640.5205s
+    total number of events:              150000
 
 Latency (ms):
          min:                                   21.23
-         avg:                                   25.91
-         max:                                   42.77
+         avg:                                   25.62
+         max:                                   51.69
          95th percentile:                       40.37
-         sum:                                60027.32
+         sum:                              3842919.34
 
 Threads fairness:
-    events (avg/stddev):           386.1667/12.40
-    execution time (avg/stddev):   10.0046/0.00
+    events (avg/stddev):           25000.0000/254.88
+    execution time (avg/stddev):   640.4866/0.01
 
+WARNING: --max-requests is deprecated, use --events instead
 sysbench 1.0.18 (using system LuaJIT 2.1.0-beta3)
 
 Running the test with following options:
@@ -43,23 +45,56 @@ Initializing worker threads...
 Threads started!
 
 CPU speed:
-    events per second:   233.84
+    events per second:   233.97
 
 General statistics:
-    total time:                          10.0186s
-    total number of events:              2343
+    total time:                          641.1047s
+    total number of events:              150000
 
 Latency (ms):
-         min:                                   21.26
+         min:                                   21.23
          avg:                                   25.64
-         max:                                   43.27
+         max:                                   43.52
+         95th percentile:                       41.10
+         sum:                              3846416.18
+
+Threads fairness:
+    events (avg/stddev):           25000.0000/795.11
+    execution time (avg/stddev):   641.0694/0.01
+
+WARNING: --max-requests is deprecated, use --events instead
+sysbench 1.0.18 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 6
+Initializing random number generator from current time
+
+
+Prime numbers limit: 150000
+
+Initializing worker threads...
+
+Threads started!
+
+CPU speed:
+    events per second:   231.82
+
+General statistics:
+    total time:                          647.0393s
+    total number of events:              150000
+
+Latency (ms):
+         min:                                   21.22
+         avg:                                   25.88
+         max:                                   64.86
          95th percentile:                       40.37
-         sum:                                60068.60
+         sum:                              3882025.69
 
 Threads fairness:
-    events (avg/stddev):           390.5000/11.67
-    execution time (avg/stddev):   10.0114/0.00
+    events (avg/stddev):           25000.0000/251.45
+    execution time (avg/stddev):   647.0043/0.01
 
+WARNING: --max-requests is deprecated, use --events instead
 sysbench 1.0.18 (using system LuaJIT 2.1.0-beta3)
 
 Running the test with following options:
@@ -74,23 +109,24 @@ Initializing worker threads...
 Threads started!
 
 CPU speed:
-    events per second:   234.14
+    events per second:   227.66
 
 General statistics:
-    total time:                          10.0231s
-    total number of events:              2347
+    total time:                          658.8771s
+    total number of events:              150000
 
 Latency (ms):
-         min:                                   21.25
-         avg:                                   25.59
-         max:                                   43.04
-         95th percentile:                       41.10
-         sum:                                60068.28
+         min:                                   21.22
+         avg:                                   26.35
+         max:                                   66.54
+         95th percentile:                       40.37
+         sum:                              3952982.53
 
 Threads fairness:
-    events (avg/stddev):           391.1667/13.70
-    execution time (avg/stddev):   10.0114/0.01
+    events (avg/stddev):           25000.0000/200.85
+    execution time (avg/stddev):   658.8304/0.01
 
+WARNING: --max-requests is deprecated, use --events instead
 sysbench 1.0.18 (using system LuaJIT 2.1.0-beta3)
 
 Running the test with following options:
@@ -105,206 +141,20 @@ Initializing worker threads...
 Threads started!
 
 CPU speed:
-    events per second:   234.39
+    events per second:   231.45
 
 General statistics:
-    total time:                          10.0293s
-    total number of events:              2351
-
-Latency (ms):
-         min:                                   21.28
-         avg:                                   25.56
-         max:                                   42.64
-         95th percentile:                       41.10
-         sum:                                60094.39
-
-Threads fairness:
-    events (avg/stddev):           391.8333/20.29
-    execution time (avg/stddev):   10.0157/0.01
-
-sysbench 1.0.18 (using system LuaJIT 2.1.0-beta3)
-
-Running the test with following options:
-Number of threads: 6
-Initializing random number generator from current time
-
-
-Prime numbers limit: 150000
-
-Initializing worker threads...
-
-Threads started!
-
-CPU speed:
-    events per second:   232.62
-
-General statistics:
-    total time:                          10.0154s
-    total number of events:              2330
-
-Latency (ms):
-         min:                                   21.26
-         avg:                                   25.77
-         max:                                   43.29
-         95th percentile:                       41.85
-         sum:                                60054.19
-
-Threads fairness:
-    events (avg/stddev):           388.3333/9.78
-    execution time (avg/stddev):   10.0090/0.00
-
-sysbench 1.0.18 (using system LuaJIT 2.1.0-beta3)
-
-Running the test with following options:
-Number of threads: 6
-Initializing random number generator from current time
-
-
-Prime numbers limit: 150000
-
-Initializing worker threads...
-
-Threads started!
-
-CPU speed:
-    events per second:   230.28
-
-General statistics:
-    total time:                          10.0262s
-    total number of events:              2309
+    total time:                          648.0822s
+    total number of events:              150000
 
 Latency (ms):
          min:                                   21.23
-         avg:                                   26.03
-         max:                                   42.53
-         95th percentile:                       41.10
-         sum:                                60094.03
+         avg:                                   25.92
+         max:                                   58.53
+         95th percentile:                       40.37
+         sum:                              3888280.94
 
 Threads fairness:
-    events (avg/stddev):           384.8333/11.58
-    execution time (avg/stddev):   10.0157/0.01
-
-sysbench 1.0.18 (using system LuaJIT 2.1.0-beta3)
-
-Running the test with following options:
-Number of threads: 6
-Initializing random number generator from current time
-
-
-Prime numbers limit: 150000
-
-Initializing worker threads...
-
-Threads started!
-
-CPU speed:
-    events per second:   231.90
-
-General statistics:
-    total time:                          10.0248s
-    total number of events:              2325
-
-Latency (ms):
-         min:                                   21.25
-         avg:                                   25.84
-         max:                                   42.76
-         95th percentile:                       41.10
-         sum:                                60086.72
-
-Threads fairness:
-    events (avg/stddev):           387.5000/13.36
-    execution time (avg/stddev):   10.0145/0.01
-
-sysbench 1.0.18 (using system LuaJIT 2.1.0-beta3)
-
-Running the test with following options:
-Number of threads: 6
-Initializing random number generator from current time
-
-
-Prime numbers limit: 150000
-
-Initializing worker threads...
-
-Threads started!
-
-CPU speed:
-    events per second:   230.04
-
-General statistics:
-    total time:                          10.0233s
-    total number of events:              2306
-
-Latency (ms):
-         min:                                   21.24
-         avg:                                   26.06
-         max:                                   42.88
-         95th percentile:                       41.10
-         sum:                                60084.56
-
-Threads fairness:
-    events (avg/stddev):           384.3333/8.65
-    execution time (avg/stddev):   10.0141/0.01
-
-sysbench 1.0.18 (using system LuaJIT 2.1.0-beta3)
-
-Running the test with following options:
-Number of threads: 6
-Initializing random number generator from current time
-
-
-Prime numbers limit: 150000
-
-Initializing worker threads...
-
-Threads started!
-
-CPU speed:
-    events per second:   233.28
-
-General statistics:
-    total time:                          10.0125s
-    total number of events:              2336
-
-Latency (ms):
-         min:                                   21.26
-         avg:                                   25.70
-         max:                                   42.47
-         95th percentile:                       41.10
-         sum:                                60023.57
-
-Threads fairness:
-    events (avg/stddev):           389.3333/17.54
-    execution time (avg/stddev):   10.0039/0.00
-
-sysbench 1.0.18 (using system LuaJIT 2.1.0-beta3)
-
-Running the test with following options:
-Number of threads: 6
-Initializing random number generator from current time
-
-
-Prime numbers limit: 150000
-
-Initializing worker threads...
-
-Threads started!
-
-CPU speed:
-    events per second:   233.65
-
-General statistics:
-    total time:                          10.0225s
-    total number of events:              2342
-
-Latency (ms):
-         min:                                   21.29
-         avg:                                   25.65
-         max:                                   42.49
-         95th percentile:                       41.10
-         sum:                                60081.56
-
-Threads fairness:
-    events (avg/stddev):           390.3333/16.30
-    execution time (avg/stddev):   10.0136/0.01
+    events (avg/stddev):           25000.0000/194.52
+    execution time (avg/stddev):   648.0468/0.01
 

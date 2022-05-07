@@ -1,0 +1,12 @@
+MiB Mem :  16309.7 total,   9577.8 free,   6508.0 used,    224.0 buff/cache
+MiB Mem :  16309.7 total,   9552.5 free,   6533.2 used,    224.0 buff/cache
+MiB Mem :  16309.7 total,   9541.9 free,   6543.9 used,    224.0 buff/cache
+MiB Mem :  16309.7 total,   9543.7 free,   6542.0 used,    224.0 buff/cache
+MiB Mem :  16309.7 total,   9518.8 free,   6566.9 used,    224.0 buff/cache
+MiB Mem :  16309.7 total,   9514.7 free,   6571.1 used,    224.0 buff/cache
+MiB Mem :  16309.7 total,   9516.0 free,   6569.7 used,    224.0 buff/cache
+MiB Mem :  16309.7 total,   9536.2 free,   6549.5 used,    224.0 buff/cache
+MiB Mem :  16309.7 total,   9547.0 free,   6538.7 used,    224.0 buff/cache
+MiB Mem :  16309.7 total,   9649.5 free,   6436.2 used,    224.0 buff/cache
+MiB Mem :  16309.7 total,   9849.0 free,   6236.8 used,    224.0 buff/cache
+MiB Mem :  16309.7 total,   9866.7 free,   6219.0 used,    224.0 buff/cache

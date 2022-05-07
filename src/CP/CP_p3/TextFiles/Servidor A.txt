@@ -1,0 +1,38 @@
+  time sysbench cpu --cpu-max-prime=250000 --time=0 --threads=6 --max-requests=250000 run
+WARNING: --max-requests is deprecated, use --events instead
+sysbench 1.0.18 (using system LuaJIT 2.1.0-beta3)
+
+Running the test with following options:
+Number of threads: 6
+Initializing random number generator from current time
+
+
+Prime numbers limit: 250000
+
+Initializing worker threads...
+
+Threads started!
+
+
+CPU speed:
+    events per second:   112.31
+
+General statistics:
+    total time:                          2225.9745s
+    total number of events:              250000
+
+Latency (ms):
+         min:                                   43.57
+         avg:                                   53.42
+         max:                                  126.80
+         95th percentile:                       78.60
+         sum:                             13355369.74
+
+Threads fairness:
+    events (avg/stddev):           41666.6667/525.10
+    execution time (avg/stddev):   2225.8950/0.02
+
+
+real    37m5.999s
+user    222m12.984s
+sys     0m1.141s
