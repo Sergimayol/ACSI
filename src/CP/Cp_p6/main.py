@@ -1,3 +1,6 @@
+output = open("output.txt", "w")
+
+
 def analyze(line):
     try:
         if '-1' in line:
@@ -9,7 +12,7 @@ def analyze(line):
 
 if __name__ == '__main__':
     line = ""
-    file = open(str(input("Path fichero: ")))
+    file = open(str(input("Path fichero: ")), "r")
     while True:
         try:
             line = file.readline()
