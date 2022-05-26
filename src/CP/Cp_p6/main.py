@@ -27,7 +27,6 @@ def analyze(line):
 if __name__ == '__main__':
     line = ""
     file = open("data.txt", "r")
-    limite = 0
     output.write(file.readline())
     while True:
         try:
@@ -36,9 +35,6 @@ if __name__ == '__main__':
             if not line:
                 break
             # Analyze sentence
-            # if limite == 10:
-            #     break
-            limite += 1
             analyze(line)
         except Exception as e:
             print("Error: {}".format(e))
