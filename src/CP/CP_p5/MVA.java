@@ -1,8 +1,6 @@
 package src.CP.CP_p5;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 /**
  *
@@ -56,14 +54,6 @@ public class MVA {
         Double[] Xi = new Double[K];
         Double[] Ui = new Double[K];
         double X0 = 0.0;
-        double[] Di = new double[K];
-        double D = 0;
-        List<Double> _list_X0 = new ArrayList<Double>();
-        List<Double> _list_R = new ArrayList<Double>();
-        for (int i = 0; i < K; i++) {
-            Di[i] = Si[i] * Vi[i];
-            D += Di[i];
-        }
         for (int i = 0; i < K; i++) {
             Ni[i] = 0.0;
             Ri[i] = 0.0;
@@ -76,9 +66,7 @@ public class MVA {
             for (int i = 0; i < K; i++) {
                 R += Ri[i] * Vi[i];
             }
-            _list_R.add(R);
             X0 = (n / (R + Z));
-            _list_X0.add(X0);
             for (int i = 0; i < K; i++) {
                 Ni[i] = (X0 * Vi[i] * Ri[i]);
                 Ui[i] = (X0 * Vi[i] * Si[i]);
