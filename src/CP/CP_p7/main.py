@@ -19,9 +19,9 @@ def writeItem(row, line):
     col = 0
     # Analyze sentence
     line_content = analyze(line)
-    worksheet.write(row, col, line_content.pop(0))
-    worksheet.write(row, col + 1, line_content.pop(0))
-    worksheet.write(row, col + 2, line_content.pop(0))
+    worksheet.write(row, col, float(line_content.pop(0)))
+    worksheet.write(row, col + 1, float(line_content.pop(0)))
+    worksheet.write(row, col + 2, float(line_content.pop(0)))
 
 
 if __name__ == '__main__':
