@@ -15,8 +15,8 @@ public class CpuMem {
      */
     public static void main(String[] args) throws IOException {
         Scanner s = new Scanner(System.in);
-        ArrayList<String> cpu = new ArrayList();
-        ArrayList<String> mem = new ArrayList();
+        ArrayList<String> cpu = new ArrayList<String>();
+        ArrayList<String> mem = new ArrayList<String>();
         String aux;
         for (int i = 0; i < 12; i++) {
             aux = s.nextLine();
@@ -31,6 +31,7 @@ public class CpuMem {
         for (int i = 0; i < mem.size(); i++) {
             System.out.println(mem.get(i));
         }
+        s.close();
     }
 
 }
